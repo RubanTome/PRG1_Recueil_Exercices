@@ -11,18 +11,18 @@ Rappel des recommandations :
 - NL9 : pas de TOUT_EN_MAJUSCULE, réservé aux macros.
 - NL10 : préférez le style `snake_case`.
 
-|  #  | Déclaration (et contexte) | Conforme ? | Recommandation / meilleur nom |
-| --- | --- | --- | --- |
-| 1 | `int nNbEtudiants = 25;` | | |
-| 2 | `double surface = largeur * hauteur;` | | |
-| 3 | `const int NB_MAX_ETUDIANTS = 100;` | | |
-| 4 | `int nombreTotalDeBouteillesDansUnPack = 6;` | | |
-| 5 | `double x = 13.2 * nb_bouteilles; // poids du pack en grammes` | | |
-| 6 | `int nbPacks, nb_bouteilles, PrixUnitaire;` | | |
-| 7 | `double dblPrix = 2.5;` | | |
-| 8 | `int a = 4, b = 12;` (utilisées 40 lignes plus loin, dans un calcul de prix) | | |
-| 9 | `double volume_canette_l = 0.33;` | | |
-| 10 | `int INT = 3;` | | |
+| #   | Déclaration (et contexte)                                                    | Conforme ? | Recommandation / meilleur nom                                   |
+| --- | ---------------------------------------------------------------------------- | ---------- | --------------------------------------------------------------- |
+| 1   | `int nNbEtudiants = 25;`                                                     | Non        | nb_etudiants                                                    |
+| 2   | `double surface = largeur * hauteur;`                                        | Oui        |                                                                 |
+| 3   | `const int NB_MAX_ETUDIANTS = 100;`                                          | Non        | nb_max_etudiants                                                |
+| 4   | `int nombreTotalDeBouteillesDansUnPack = 6;`                                 | Non        | nb_bouteilles_pack                                              |
+| 5   | `double x = 13.2 * nb_bouteilles; // poids du pack en grammes`               | Non        | poids_pack                                                      |
+| 6   | `int nbPacks, nb_bouteilles, PrixUnitaire;`                                  | Non        | prix_unitaire                                                   |
+| 7   | `double dblPrix = 2.5;`                                                      | Non        | prix                                                            |
+| 8   | `int a = 4, b = 12;` (utilisées 40 lignes plus loin, dans un calcul de prix) | Non        | trop peu explicite mettre par exemple : prix_article, reduction |
+| 9   | `double volume_canette_l = 0.33;`                                            | Oui        |                                                                 |
+| 10  | `int INT = 3;`                                                               | Non        |                                                                 |
 
 <details>
 <summary>Solution</summary>
@@ -41,3 +41,4 @@ Rappel des recommandations :
 | 10 | `int INT = 3;` | Non | NL9 : tout en majuscules ; et le nom ne dit rien de l'usage (il ressemble au mot réservé `int`, source de confusion). → un nom qui décrit la valeur stockée |
 
 </details>
+
