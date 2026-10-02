@@ -42,14 +42,16 @@ Pour chaque séquence d'instructions suivante, déterminez si elle est correcte 
     m = n * nb_produit;
     ~~~
 
+1.n = 0 <br>
+2.
 <details>
 <summary>Solution</summary>
 
-1. `n = 0`
-2. Non, ce n'est pas correct. La variable `n` est déclarée deux fois.
-3. Non, ce n'est pas correct. La variable `k` n'est pas déclarée.
-4. Non, ce n'est pas correct. La variable `n` n'est pas initialisée : son contenu est indéterminé.
-5. `m = 49`
-6. Non, ce n'est pas correct. La variable `nb_produit` est définie `const` et ne peut pas être modifiée (`nb_produit -= 1`).
+8. `n = 0`
+9. Non, ce n'est pas correct. La variable `n` est déclarée deux fois.
+10. Non, ce n'est pas correct. La variable `k` n'est pas déclarée.
+11. Non, ce n'est pas correct. La variable `n` n'est pas initialisée : son contenu est indéterminé.
+12. `m = 49`
+13. Non, ce n'est pas correct. La variable `nb_produit` est définie `const` et ne peut pas être modifiée (`nb_produit -= 1`).
 
 </details>
