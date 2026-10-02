@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Types references arithmetique/04 - Types numériques.md",
+                "file": "02 - Types references arithmetique/05 - Taille et définition des entiers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 - Types numériques"
+              "title": "05 - Taille et définition des entiers"
             }
           }
         ]
@@ -190,6 +190,7 @@
   },
   "active": "562293d4259b9c8e",
   "lastOpenFiles": [
+    "02 - Types references arithmetique/04 - Types numériques.md",
     "02 - Types references arithmetique/03 - types de base.md",
     "02 - Types references arithmetique/02 - declaration de variables.md",
     "02 - Types references arithmetique/01 - identificateurs.md"
