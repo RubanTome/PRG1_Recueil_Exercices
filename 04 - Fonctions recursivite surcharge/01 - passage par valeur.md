@@ -21,6 +21,8 @@ int main() {
 }
 ~~~
 
+Affichage : <br>
+A : n = 2 <br>B : n = 6 <br>C : n = 4 <br>
 <details>
 <summary>Solution</summary>
 
